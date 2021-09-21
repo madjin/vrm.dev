@@ -1,0 +1,178 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VRM – UniVRM</title>
+    <link>https://vrm.dev/docs/univrm/</link>
+    <description>Recent content in UniVRM on VRM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 20 Aug 2021 17:52:39 +0900</lastBuildDate>
+    
+	  <atom:link href="https://vrm.dev/docs/univrm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Install</title>
+      <link>https://vrm.dev/docs/univrm/install/</link>
+      <pubDate>Thu, 06 Aug 2020 12:36:16 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/install/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Export</title>
+      <link>https://vrm.dev/docs/univrm/export/</link>
+      <pubDate>Thu, 06 Aug 2020 12:36:16 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/export/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Import</title>
+      <link>https://vrm.dev/docs/univrm/import/</link>
+      <pubDate>Mon, 16 Apr 2018 16:30:00 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/import/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: BlendShape</title>
+      <link>https://vrm.dev/docs/univrm/blendshape/</link>
+      <pubDate>Thu, 06 Aug 2020 18:09:15 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/blendshape/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Material</title>
+      <link>https://vrm.dev/docs/univrm/shaders/</link>
+      <pubDate>Mon, 16 Apr 2018 16:30:00 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/shaders/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: LookAt</title>
+      <link>https://vrm.dev/docs/univrm/lookat/</link>
+      <pubDate>Thu, 06 Aug 2020 18:09:15 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/lookat/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: SpringBone</title>
+      <link>https://vrm.dev/docs/univrm/springbone/</link>
+      <pubDate>Mon, 16 Apr 2018 16:30:00 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/springbone/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Humanoid</title>
+      <link>https://vrm.dev/docs/univrm/humanoid/</link>
+      <pubDate>Thu, 06 Aug 2020 18:09:15 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/humanoid/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Meta</title>
+      <link>https://vrm.dev/docs/univrm/meta/</link>
+      <pubDate>Mon, 16 Apr 2018 16:30:00 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/meta/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: FirstPerson</title>
+      <link>https://vrm.dev/docs/univrm/firstperson/</link>
+      <pubDate>Thu, 06 Aug 2020 18:09:15 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/firstperson/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: GLTF</title>
+      <link>https://vrm.dev/docs/univrm/gltf/</link>
+      <pubDate>Thu, 06 Aug 2020 18:09:15 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/gltf/</guid>
+      <description>
+        
+        
+        &lt;p&gt;UniVRM には UniGLTF の最新版が含まれています。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Programming</title>
+      <link>https://vrm.dev/docs/univrm/programming/</link>
+      <pubDate>Tue, 07 Sep 2021 22:04:31 +0900</pubDate>
+      
+      <guid>https://vrm.dev/docs/univrm/programming/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;お知らせ&#34;&gt;お知らせ&lt;/h2&gt;
+&lt;p&gt;プログラミング関連のドキュメントは、 &lt;a href=&#34;https://vrm-c.github.io/UniVRM/&#34;&gt;UniVRM Programming Document&lt;/a&gt; に移動・整理中です。
+今後、プログラミング関連は &lt;code&gt;UniVRM&lt;/code&gt; 側で更新する予定です。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

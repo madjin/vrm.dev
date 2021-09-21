@@ -1,0 +1,103 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VRM – api</title>
+    <link>https://vrm.dev/en/tags/api/</link>
+    <description>Recent content in api on VRM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 08 Jan 2021 17:13:11 +0900</lastBuildDate>
+    
+	  <atom:link href="https://vrm.dev/en/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: UniGLTF</title>
+      <link>https://vrm.dev/en/docs/univrm/gltf/unigltf/</link>
+      <pubDate>Fri, 08 Jan 2021 17:13:11 +0900</pubDate>
+      
+      <guid>https://vrm.dev/en/docs/univrm/gltf/unigltf/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Starting with &lt;code&gt;UniVRM-0.63.2&lt;/code&gt;, &lt;code&gt;UniGLTF&lt;/code&gt; is separated from &lt;code&gt;UniVRM&lt;/code&gt; and can be used as a UPM package.&lt;/p&gt;
+&lt;p&gt;The directory for &lt;code&gt;UniGLTF&lt;/code&gt; is &lt;code&gt;Assets/UniGLTF&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;unitypackage&#34;&gt;UnityPackage&lt;/h2&gt;
+&lt;p&gt;UniGLTF can be installed by importing UniVRM unity package (&lt;code&gt;UniVRM-0.XX.unitypackage&lt;/code&gt;). gltf/glb import/export can still be used even the VRM folder (&lt;code&gt;Assets/VRM&lt;/code&gt;) is deleted.&lt;/p&gt;
+&lt;h2 id=&#34;upm&#34;&gt;UPM&lt;/h2&gt;
+&lt;p&gt;UniGLTF depends on VRMShaders.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;{
+  &lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;&amp;#34;dependencies&amp;#34;&lt;/span&gt;: {
+    &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;...&lt;/span&gt;
+    &lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;&amp;#34;com.vrmc.vrmshaders&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.63.2&amp;#34;&lt;/span&gt;,
+    &lt;span style=&#34;color:#309;font-weight:bold&#34;&gt;&amp;#34;com.vrmc.unigltf&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#c30&#34;&gt;&amp;#34;https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.63.2&amp;#34;&lt;/span&gt;,
+    &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#a00;background-color:#faa&#34;&gt;...&lt;/span&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;unigltf-features&#34;&gt;UniGLTF Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;glTF/glb import/export&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gltf-extensions&#34;&gt;glTF Extensions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;KHR_materials_unlit import/export
+&lt;ul&gt;
+&lt;li&gt;export: unity&amp;rsquo;s unlit-type shaders&lt;/li&gt;
+&lt;li&gt;import: VRMShaders&amp;rsquo; &lt;a href=&#34;https://vrm.dev/en/docs/univrm/shaders/univrm_unlit/&#34;&gt;UniUnlit&lt;/a&gt; shader&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;KHR_texture_transform import/export&lt;/li&gt;
+&lt;li&gt;The name of MorphTarget (BlendShape) is imported/exported to &lt;code&gt;/meshes/*/primitives/*/extras/targetNames&lt;/code&gt;, &lt;code&gt;/meshes/*/extras/targetNames&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Install UniVRM Samples</title>
+      <link>https://vrm.dev/en/docs/univrm/install/univrm_install_samples/</link>
+      <pubDate>Wed, 02 Sep 2020 12:28:08 +0900</pubDate>
+      
+      <guid>https://vrm.dev/en/docs/univrm/install/univrm_install_samples/</guid>
+      <description>
+        
+        
+        &lt;p&gt;In this section, we assume you have &lt;a href=&#34;https://vrm.dev/en/docs/univrm/install/univrm_install/&#34;&gt;installed UniVRM package&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;univrm-samples-package&#34;&gt;UniVRM Samples Package&lt;/h2&gt;
+&lt;p&gt;Starting with &lt;code&gt;v0.81.0&lt;/code&gt;, UniVRM Samples are included in the UniVRM package.&lt;br&gt;
+Feel free to jump to the &lt;a href=&#34;#run-univrm-samples&#34;&gt;Run UniVRM Samples&lt;/a&gt; section if the latest UniVRM version has been installed.&lt;/p&gt;
+&lt;h3 id=&#34;-v0800&#34;&gt;~ v0.80.0&lt;/h3&gt;
+&lt;p&gt;Get UniVRM Samples package in &lt;a href=&#34;https://github.com/vrm-c/UniVRM/releases&#34;&gt;https://github.com/vrm-c/UniVRM/releases&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The package&amp;rsquo;s name will look like this: &lt;code&gt;UniVRM-samples-0.XX.X_XXXX.unitypackage&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Make sure the version you downloaded matches the installed UniVRM version (e.g. UniVRM and UniVRM Samples are both v0.66.0).&lt;/p&gt;
+&lt;h3 id=&#34;import&#34;&gt;Import&lt;/h3&gt;
+&lt;p&gt;From the menu, go to &lt;code&gt;Assets -&amp;gt; Import Package&lt;/code&gt; and then click &lt;code&gt;Custom Package&lt;/code&gt; to import the package &lt;code&gt;UniVRM-samples-0.XX.X_XXXX.unitypackage&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After you see the file information in the package as shown below, click &lt;code&gt;Import&lt;/code&gt; button:&lt;/p&gt;
+&lt;img src=&#34;https://vrm.dev/images/vrm/sample_package_import.jpg&#34; alt=&#34;sample_package_import&#34; width=&#34;300&#34; /&gt;
+
+&lt;h2 id=&#34;run-univrm-samples&#34;&gt;Run UniVRM Samples&lt;/h2&gt;
+&lt;p&gt;Now the folder &lt;code&gt;VRM.Samples&lt;/code&gt; should be in &lt;code&gt;Assets&lt;/code&gt;. In Project window, please select &lt;code&gt;SampleViewer&lt;/code&gt;:&lt;/p&gt;
+&lt;img src=&#34;https://vrm.dev/images/vrm/sample_scene.jpg&#34; alt=&#34;sample_scene&#34; width=&#34;300&#34; /&gt;
+
+&lt;hr&gt;
+&lt;p&gt;Next, select &lt;code&gt;Game&lt;/code&gt; view. You will see the &lt;code&gt;SampleViewer&lt;/code&gt; interface:&lt;/p&gt;
+&lt;img src=&#34;https://vrm.dev/images/vrm/sample_viewer.jpg&#34; alt=&#34;sample_viewer&#34; width=&#34;500&#34; /&gt;
+
+&lt;hr&gt;
+&lt;p&gt;Click &lt;code&gt;Play&lt;/code&gt; button to enable &lt;code&gt;SampleViewer&lt;/code&gt;, and then click &lt;code&gt;Open&lt;/code&gt; button to import a VRM model into the scene at runtime:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://vrm.dev/images/vrm/play_mode.jpg&#34; alt=&#34;play_mode&#34; width=&#34;150&#34; /&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;img src=&#34;https://vrm.dev/images/vrm/sample_viewer_activate.jpg&#34; alt=&#34;sample_viewer_activate&#34; width=&#34;600&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;Other samples such as &lt;a href=&#34;https://github.com/vrm-c/UniVRM/tree/master/Assets/VRM/Samples/RuntimeExporterSample&#34;&gt;Runtime VRM export&lt;/a&gt; and &lt;a href=&#34;https://github.com/vrm-c/UniVRM/tree/master/Assets/VRM/Samples/FirstPersonSample&#34;&gt;FirstPerson rendering&lt;/a&gt; are available in &lt;code&gt;VRM.Samples&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Alicia model &lt;a href=&#34;https://github.com/vrm-c/UniVRM/blob/master/Tests/Models/Alicia_vrm-0.51/AliciaSolid_vrm-0.51.vrm&#34;&gt;can be found here&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
